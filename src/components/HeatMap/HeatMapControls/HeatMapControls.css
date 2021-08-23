@@ -1,3 +1,12 @@
-.heat-map-controls .dropdown-toggle, .heat-map-controls .dropdown-menu{
-    min-width: 250px;
+
+@media only screen and (min-width: 550px) {
+    .heat-map-controls .dropdown-toggle, .heat-map-controls .dropdown-menu{
+        min-width: 250px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .heat-map-controls .dropdown{
+        flex-basis: 100%;
+    }
 }

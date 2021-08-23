@@ -27,7 +27,7 @@ function HeatMapTable({
         return styles
     }
     return (
-        <Table striped bordered hover id={id} className="heat-map-table">
+        <Table striped responsive bordered hover id={id} className="heat-map-table">
             <thead>
                 <tr>
                     <th>#</th>
